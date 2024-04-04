@@ -48,3 +48,14 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+WALK THROUGH NOTES
+copy and paste jokeData from old vs code file (api call/promise)
+use html tag to call component <Joke />
+
+*****ON index.js FILE********
+const [joke, setJoke] = useState({})
+
+const getJoke = () => {
+    getAJoke().then(setJoke);
+}
