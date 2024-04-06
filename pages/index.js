@@ -20,7 +20,7 @@ function Home() {
       style={{
         height: '90vh',
         padding: '30px',
-        maxWidth: '800px',
+        maxWidth: '900px',
         margin: '2rem auto',
       }}
     >
@@ -35,7 +35,6 @@ function Home() {
         <Button variant="warning" type="button" onClick={() => setBtnTxt('Get Another Dad Joke')}>{btnTxt}</Button>
       )}
     </div>
-  // </div>
   );
 }
 
