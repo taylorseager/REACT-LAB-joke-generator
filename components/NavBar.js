@@ -7,7 +7,7 @@ import {
 
 export default function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect bg="light" variant="light">
       <Container>
         <Link passHref href="/">
           <Navbar.Brand>Joke Generator 2.0</Navbar.Brand>

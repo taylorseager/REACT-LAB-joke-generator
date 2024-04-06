@@ -20,22 +20,23 @@ function Home() {
       style={{
         height: '90vh',
         padding: '30px',
-        maxWidth: '600px',
+        maxWidth: '800px',
         margin: '2rem auto',
       }}
     >
       <h1>Welcome to the Joke Generator 2.0!</h1>
-      <h2>Be Prepared for Some Dad Jokes.</h2>
+      <h6>Be Prepared for Some Dad Jokes.</h6>
+      <br />
       <Joke joke={joke} btnTxt={btnTxt} />
-      {btnTxt === 'Get A Joke' || btnTxt === 'Get Another Joke' ? (
+      <br />
+      {btnTxt === 'Get A Dad Joke' || btnTxt === 'Get Another Dad Joke' ? (
         <Button variant="success" type="button" onClick={getJoke}>{btnTxt}</Button>
       ) : (
-        <Button variant="warning" type="button" onClick={() => setBtnTxt('Get Another Joke')}>{btnTxt}</Button>
+        <Button variant="warning" type="button" onClick={() => setBtnTxt('Get Another Dad Joke')}>{btnTxt}</Button>
       )}
     </div>
+  // </div>
   );
 }
 
 export default Home;
-
-// how to get h1/h2 tags to disappear when button is clicked
