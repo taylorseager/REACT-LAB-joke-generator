@@ -24,8 +24,8 @@ function Home() {
         margin: '2rem auto',
       }}
     >
-      <h1>Welcome to the Joke Generator 2.0!</h1>
-      <h6>Be Prepared for Some Dad Jokes.</h6>
+      <h1 className="text-white ms-5 details">Welcome to the Joke Generator 2.0!</h1>
+      <h6 className="text-white ms-5 details">Be Prepared for Some Dad Jokes.</h6>
       <br />
       <Joke joke={joke} btnTxt={btnTxt} />
       <br />

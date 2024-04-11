@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 export default function Joke({ joke, btnTxt }) {
   return (
     <>
-      <h1>{joke.setup}</h1>
+      <h1 style={{ color: 'green' }}>{joke.setup}</h1>
       <br />
-      {btnTxt !== 'Get A Punchline' ? <h3>{joke.delivery}</h3> : ''}
+      {btnTxt !== 'Get A Punchline' ? <h3 style={{ color: 'white' }}>{joke.delivery}</h3> : ''}
     </>
   );
 }
